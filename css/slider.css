@@ -1,0 +1,47 @@
+*{
+    margin:0px;
+    padding:0px;
+
+}
+
+/*Slider*/
+div#slider{
+    width: 500px;
+    overflow: hidden;
+    margin: 20px;
+}
+
+.slider{
+    height: 300px;
+}
+.slider li{
+    list-style-type: none;
+    width: 500px;
+    height: 300px;
+    float: left;
+}
+
+.slider li img{
+    width: 500px;
+    height: 300px;
+}
+
+/*Slider buttons*/
+button#sonce{
+    background-color: black;
+    color: white;
+    border:none;
+    padding:5px;
+    border-radius:5px;
+}
+button#ssonr{
+    background-color: black;
+    color: white;
+    border:none;
+    padding:5px;
+    border-radius:5px;
+    margin-top:10px;
+}
+.sliderbutton{
+    text-align: center;
+}
